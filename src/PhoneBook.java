@@ -17,7 +17,6 @@ public class PhoneBook {
         return treeMap;
     }
     private static HashMap<String, ArrayList<Integer>> phoneBook = new HashMap<>();
-    //private static Set<PhoneBook> values = new TreeSet<>();
 
     // МЕТОД ПО ДОБАВЛЕНИЮ НОВГО КОНТАКТА В HASH ИЛИ ДОБАВЛЕНИЮ ТЕЛЕФОНА К УЖЕ ИМЕЮЩЕМУСЯ
     public void AddContact(String name, Integer phoneNum) {
